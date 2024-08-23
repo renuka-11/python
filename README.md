@@ -1,1 +1,8 @@
-# python
+a=int(input())
+b=int(input())
+if(a==b):
+    print("Equal")
+elif(a>b):
+    print("Big")
+else:
+    print("Small")
