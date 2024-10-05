@@ -1,0 +1,8 @@
+f=open("example.txt",'w')
+f.write("hello world")
+f.close()
+f=open("example.txt",'r')
+f.seek(1)
+f.read(4)
+f.tell()
+print(f.read())
